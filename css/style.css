@@ -1,5 +1,4 @@
-body {font-size: 20px;
-      font-weight: medium;
+body {
       font-family: Arial;
 
 }
@@ -15,11 +14,7 @@ body {font-size: 20px;
    margin-bottom:80px;
 
 }
-p {width:350px;
-  height: 40px;
-  margin-top:55px;
-  margin-bottom: 55px;
-  font-size: 1em
+
 
 
 
@@ -86,7 +81,7 @@ float:right;
   font-size:16px;
 }
 
-.site { width: 290px;
+.site { width: 25%;
 float:left;
 
 }
