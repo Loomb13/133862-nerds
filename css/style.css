@@ -5,84 +5,127 @@ body {
 
 .clearfix:after{
   content:"";
+
   display:table;
   clear:both;
 }
 
-.main-header {width:400px;
-   height:170px;
-   margin-bottom:80px;
-
-}
-
-
-
-
-}
-
-.container{ width:1160px;
+.container { width:1190px;
   margin: 0 auto;
   padding: 0 20px;
 
 }
+
 .logo {width:330px;
   float:left;
 
 }
 
-
 .main-navigation {width:760px;
   float:left;
 
 }
+
 .cart { width:180px;
   float:right;
 
 }
 
-.header-title { height: 185px;
-  float:left;
-}
 
-.getmore {width:240px;
-  height:50px;
-  float:left;
+.slider-text { width:420px;
+height: 290px;
 
 }
 
-.slider {width:760px;
-  float:right;
+.slider-text h1 { font-size: 55px;
 
 }
 
-.features-item {width:300px;
-  margin-right:50px;
-
-  float:left;
+.slider-text p {font-size: 16px;
 
 }
+
+.getmore {font-size: 16px;
+
+}
+
+
+.main {
+  margin-top:80px;
+}
+
 
 .features {margin-bottom:80px;
 
+  }
+
+.features-item {width:300px;
+    margin-right:50px;
+    float:left;
+
+  }
+
+.features-item h2 {font-size: 24px;
 }
+
+.features-item p {font-size: 16px;
+  width:240px;
+
+}
+
 
 .desciption {width:700px;
 float:left;
 
+
 }
+.desciption b {font-size: 45px;
+
+
+}
+
+.description p {font-size: 15px;
+
+}
+
+.description>p>strong { font-size: 16px;
+
+}
+
+.description>ul>li{
+
+}
+
 
 .logo2 {
 float:right;
 
   }
 
-.treats {width:100px;
+.treats {width:360px;
   float:left;
-  font-size:16px;
+
+}
+
+.treats strong {font-size: 16px;
+
+}
+
+.treats>tr>td>strong {font-size: 100px;
+  margin-left: 50px;
+
+}
+
+.sites {margin-top: 80px;
+
 }
 
 .site { width: 25%;
 float:left;
+
+}
+
+.map {margin-top:80px;
 
 }
 
@@ -94,6 +137,23 @@ float:left;
   float:left;
 
 }
+
+.footer-contacts strong {
+  
+
+
+
+}
+
+
+
+.footer section {
+
+
+
+}
+
+
 
 .options{ width:300px;
   float:left;
@@ -108,21 +168,7 @@ float:left;
   float:right;
 
 }
-h1 {  font-size: 1.5em ;
-      width: 100%;
-      height: 100%;
-      color: blue;
-      font-weight: medium;
-      font-family: Arial;
 
-}
-
-h2  {font-size: 1em ;
-      width: 100%;
-      height: 100%;
-      color: blue;
-      font-weight: medium;
-      font-family: Arial;
 
 
 }
