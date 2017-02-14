@@ -107,14 +107,6 @@ float:right;
 
 }
 
-.treats strong {font-size: 16px;
-
-}
-
-.treats>tr>td>strong {font-size: 100px;
-  margin-left: 50px;
-
-}
 
 .sites {margin-top: 80px;
 
@@ -130,30 +122,36 @@ float:left;
 }
 
 .footer {margin-top:80px;
-
-}
-
-.footer-contacts {width:320px;
-  float:left;
-
-}
-
-.footer-contacts strong {
-  
-
+  margin-bottom: 80px;
 
 
 }
 
+.container {position:relative;
 
+}
 
-.footer section {
-
+.footer-contacts  {width:300px;
+  height:315px;
+  padding: 50px;
+  position: absolute;
+  left:150px;
+  top:200px;
+  background-color: white;
 
 
 }
 
+.footer-banner {width:500px;
+  float:right;
 
+}
+
+.footer-banner> strong{font-size: 30px;
+
+
+
+}
 
 .options{ width:300px;
   float:left;
@@ -162,12 +160,30 @@ float:left;
 
 }
 
-
 .pic {width:360px;
   margin:20px;
   float:right;
 
 }
+
+.left-content {width: 250px;
+  height: 800px;
+float:left;
+margin-bottom: 60px;
+}
+
+.main-content {
+
+
+   margin-bottom: 60px;
+
+
+}
+.template-navigation {
+
+}
+
+
 
 
 
