@@ -1,3 +1,8 @@
+*,  *::before, *::after {
+	box-sizing: border-box;
+}
+
+
 body {
       font-family: Arial;
 
@@ -74,12 +79,12 @@ height: 290px;
 }
 
 
-.desciption {width:700px;
+.description {width:700px;
 float:left;
 
 
 }
-.desciption b {font-size: 45px;
+.description b {font-size: 45px;
 
 
 }
@@ -115,6 +120,8 @@ float:left;
 }
 
 .map {margin-top:80px;
+  position:relative;
+
 
 }
 
@@ -124,14 +131,13 @@ float:left;
 
 }
 
-.container {position:relative;
+.footer-contacts  {
 
-}
-
-.footer-contacts  {width:300px;
+  position: absolute;
+  width:300px;
   height:315px;
   padding: 50px;
-  position: absolute;
+
   left:150px;
   top:200px;
   background-color: white;
@@ -169,21 +175,19 @@ margin-right: auto;
 
 }
 
-
-
-.left-content {width: 250px;
-  height: 800px;
+.left-content {width: 280px;
 float:left;
 margin-bottom: 60px;
+padding-right:20px;
 }
 
-.main-content {
+.main-content {width: 900px;
+ padding-left: 120px;
    margin-bottom: 60px;
 
 
 }
 .template-navigation {width: 760px;
- margin-left:100px;
 
   float:right;
 
